@@ -9,7 +9,7 @@ import java.util.List;
 @Service
 public class ProductServiceImpl implements Productservice {
     @Override
-    public List<Product> getProducts() {
-        return Product.getProducts();
+    public List<Product> getProduct() {
+        return Product.getProduct();
     }
 }

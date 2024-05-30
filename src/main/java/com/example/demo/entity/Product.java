@@ -33,7 +33,7 @@ public class Product {
         return description;
     }
 
-    public static List<Product> getProducts() {
+    public static List<Product> getProduct() {
         return new ArrayList<>(products); // Return a copy to avoid modification of static data
     }
 }

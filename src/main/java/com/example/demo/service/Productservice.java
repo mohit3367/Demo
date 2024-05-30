@@ -5,5 +5,5 @@ import com.example.demo.entity.Product;
 import java.util.List;
 
 public interface Productservice {
-    public List<Product> getProducts();
+    public List<Product> getProduct();
 }
